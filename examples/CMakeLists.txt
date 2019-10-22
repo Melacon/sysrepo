@@ -1,6 +1,6 @@
 include_directories("${PROJECT_SOURCE_DIR}/inc")
 
-add_subdirectory(plugins)
+#add_subdirectory(plugins)
 
 add_executable(sr_get_item_example sr_get_item_example.c)
 add_executable(sr_get_items_example sr_get_items_example.c)
@@ -49,7 +49,7 @@ macro(INSTALL_EXAMPLE_YANG MODULE_NAME REVISION)
     EXEC_AT_INSTALL_TIME(${CMD})
 endmacro(INSTALL_EXAMPLE_YANG)
 
-INSTALL_EXAMPLE_YANG("turing-machine" "")
-INSTALL_EXAMPLE_YANG("iana-if-type" "")
-INSTALL_EXAMPLE_YANG("ietf-ip" "@2014-06-16")
-INSTALL_EXAMPLE_YANG("ietf-interfaces" "@2014-05-08")
+#INSTALL_EXAMPLE_YANG("turing-machine" "")
+#INSTALL_EXAMPLE_YANG("iana-if-type" "")
+#INSTALL_EXAMPLE_YANG("ietf-ip" "@2014-06-16")
+#INSTALL_EXAMPLE_YANG("ietf-interfaces" "@2014-05-08")

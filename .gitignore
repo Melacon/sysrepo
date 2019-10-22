@@ -8,3 +8,5 @@ doc/latex
 nbproject/
 CMakeCache.txt
 tags
+.cproject
+.project
